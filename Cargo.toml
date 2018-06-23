@@ -1,0 +1,12 @@
+[package]
+name = "foo"
+version = "0.1.0"
+authors = ["quake wang <quake.wang@gmail.com>"]
+
+[dependencies]
+
+[workspace]
+members = [
+    "member_a",
+    "member_b"
+]
